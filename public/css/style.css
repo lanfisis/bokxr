@@ -1,0 +1,44 @@
+@charset 'UTF-8';
+
+body {
+    background-image: url('img/bg.png');
+    background-color:  #ed786a;
+    
+    color: white;
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Lemon', cursive;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding:0;
+    text-shadow: 2px 2px 5px #919191;
+    filter: dropshadow(color=#919191, offx=2, offy=2);
+}
+h2 {
+    text-align: center;
+    font-size: 1.2pxem;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: normal;
+    padding:0;
+}
+
+.dropzone {
+    border: 3px white dotted;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    /*color: #448493;*/
+}
+
+.dropzone i {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 7em;
+
+
+}
